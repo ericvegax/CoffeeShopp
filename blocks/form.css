@@ -1,7 +1,5 @@
 .form {
   max-width: 385px;
-  margin: 0 auto;
-  padding-bottom: 120px;
 }
 
 .form__label {
@@ -24,12 +22,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
-}
-
-.form__input[type="number"],
-.form__input[type="date"],
-.form__input[type="email"] {
-  /* Inputs retain the same styles */
+  margin-top: 8px;
 }
 
 .form__button {

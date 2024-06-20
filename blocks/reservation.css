@@ -3,6 +3,7 @@
   background-position: center;
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
+  
 }
 
 .reservation__title {
@@ -12,7 +13,11 @@
   font-size: 44px;
   line-height: 52px;
   text-align: center;
-  margin-bottom: 80px;
-  padding-top: 100px;
-  margin-top: 0px;
+  padding: 100px 0 0 0;
+  margin: 0 0 80px 0;
+}
+
+.reservation__form {
+  margin: 0 auto;
+  padding-bottom: 120px;
 }

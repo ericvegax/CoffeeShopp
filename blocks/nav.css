@@ -15,10 +15,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.nav__link {
-  margin-right: 1rem;
+  gap: 1rem;
 }
 
 .nav__link {
@@ -32,6 +29,6 @@
   transition: color 0.2s ease-in-out;
 }
 
-.nav__links a:hover {
+.nav__link:hover {
   color: #2f80ed;
 }

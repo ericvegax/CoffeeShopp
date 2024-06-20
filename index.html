@@ -42,7 +42,7 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-noto"> Specialty Coffee </span> in the
+          <span class="header__span-accent"> Specailty Coffee </span> in the
           Triple Peaks Library
         </h1>
         <p class="header__description">
@@ -55,14 +55,10 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div>
+          <div class="header__hours">
             <p class="header__heading">Hours</p>
-            <ul class="header__link">
-              <li class="header__paragraph">Monday - Friday (10:00 - 19:00)</li>
-              <li class="header__paragraph">
-                Saturday - Sunday (11:00 - 18:00)
-              </li>
-            </ul>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00) </p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
           <div>
             <p class="header__paragraph">
@@ -120,6 +116,7 @@
                 type="text"
                 id="name"
                 placeholder="Name Surname"
+                required
               />
             </label>
             <label class="form__label" for="guests"
@@ -131,6 +128,7 @@
                 placeholder="1-8"
                 min="1"
                 max="8"
+                required
               />
             </label>
             <label class="form__label" for="date-time"
@@ -144,12 +142,13 @@
                 type="email"
                 id="email"
                 placeholder="email@email.com"
+                required
               />
             </label>
             <button class="form__button" type="submit">Book a table</button>
             <fieldset class="form__fieldset">
               <label class="form__label form__label_type_checkbox">
-                <input class="form__checkbox" type="checkbox" id="terms" />
+                <input class="form__checkbox" type="checkbox" id="terms" required />
                 I agree with the terms of use
               </label>
             </fieldset>
@@ -158,8 +157,8 @@
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
-            We bre coffee from roasted locally and , Fairtrade certified beans
-            and use biogradedable cups. All team from our collection are $2/cup
+            We brew coffee from roasted locally and , Fair trade certified beans
+            and use biodegradable cups. All team from our collection are $2/cup
           </p>
 
           <ul class="menu__cards">
@@ -176,7 +175,7 @@
                   RXL (20 0z)<span class="card__list-divider"></span>$1.75
                 </li>
                 <li class="card__list-item">
-                  Party-aize (24 oz, decaf)<span
+                  Party-size (24 oz, decaf)<span
                     class="card__list-divider"
                   ></span
                   >$1.75
@@ -245,7 +244,7 @@
               Our main mission is keeping guests cozy and energized.
             </p>
             <p class="about__paragraph">
-              Besides that, we try to reduce our environmental impact - so we
+              Besides that, we try to reduce our envionemental impact - so we
               don't sell single-use cups. But can buy one of our reusable cups!
             </p>
           </div>
